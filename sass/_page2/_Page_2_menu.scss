@@ -43,9 +43,15 @@ main {
         }
 
         .menu_liste_bloc_page_2 {
+            margin-bottom: 40px;
 
             .Entre_page_2 {
-                margin-left: 10px;
+                margin-left: 20px;
+
+                @media (min-width:768px) {
+                    width: 75%;
+                    margin: auto;
+                }
 
                 .soulignement_page_2 {
                     width: 40px;
@@ -63,6 +69,10 @@ main {
                 justify-content: space-between;
                 box-shadow: 0px 4.01149px 15.0431px rgba(0, 0, 0, 0.1);
                 border-radius: 15.0431px;
+
+                @media (min-width:768px){
+                    width: 75%;
+                }
 
                 .texte_plat_page_2 {
                     overflow: hidden;
@@ -135,6 +145,7 @@ main {
 }
 
 .BouttonExplorer {
+    transition: 400ms;
     border: solid 2px rgba(255, 255, 255, 0);
     border-radius: 50px;
     background: linear-gradient(200.64deg, #9356DC -5.2%, #FF79DA 110.74%);

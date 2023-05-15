@@ -100,11 +100,11 @@ nav {
 }
 
 .Boutton_Title {
-    margin-left: 30px;
+    margin-left: 50px;
     margin-top: 50px;
 
     @media screen and (min-width:1200px) {
-        margin-left: 7%;
+        margin-left: 110px;
     }
 }
 
@@ -118,8 +118,8 @@ nav {
     }
 
     .Boutton_Cliquable {
-        height: 72px;
-        width: 98%;
+        width: 90%;
+        margin: auto;
 
         @media (min-width:992px) {
             width: 30%;
@@ -150,6 +150,7 @@ nav {
             }
 
             .Boutton_Texte {
+                transition: 400ms;
                 width: 97%;
                 background-color: #F7F7F7;
                 border-radius: 20px;
@@ -158,8 +159,16 @@ nav {
                     justify-content: space-around;
                     display: flex;
                     align-items: center;
-                    width: 70%;
+                    width: 85%;
                     margin-left: 10px;
+
+                    @media (min-width:400px) {
+                        width: 70%;
+                    }
+
+                    i{
+                        transition: 400ms;
+                    }
 
                     @media (min-width:992px) {
                         width: 75%;
@@ -185,7 +194,11 @@ nav {
         display: flex;
         flex-direction: row;
         justify-content: space-around;
-        margin: auto;
+        margin-left: 20px;
+    }
+
+    @media (min-width:1200px) {
+        margin-left: 80px;
     }
 }
 
@@ -199,32 +212,32 @@ nav {
 
     .Restaurant_title {
         margin-top: 20px;
-        margin-left: 20px;
+        margin-left: 50px;
 
         @media screen and (min-width:1200px) {
-            margin-left: 7%;
+            margin-left: 110px;
         }
     }
 
     #Les_cartes {
         width: 90%;
-        // height: 1200px;
         margin: auto;
         display: flex;
         flex-direction: column;
         justify-content: space-around;
 
         @media (min-width:992px) {
-            /* flex-direction: row; */
             display: flex;
-            margin-left: 64px;
+            margin-left: 20px;
             height: 350px;
             width: 95%;
-            // height: 1200px;
-            /* margin: auto; */
             display: flex;
             flex-direction: unset;
             justify-content: space-evenly;
+        }
+
+        @media (min-width:1200px) {
+            margin-left: 70px;
         }
 
         a {

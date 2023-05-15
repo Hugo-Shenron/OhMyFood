@@ -75,6 +75,7 @@ nav .sous-titre a {
   text-decoration: none;
 }
 nav .sous-titre .BouttonExplorer {
+  transition: 400ms;
   border: solid 2px rgba(255, 255, 255, 0);
   border-radius: 50px;
   background: linear-gradient(200.64deg, #9356DC -5.2%, #FF79DA 110.74%);
@@ -240,12 +241,12 @@ nav .sous-titre .sous-titre-paragraphe {
 }
 
 .Boutton_Title {
-  margin-left: 30px;
+  margin-left: 50px;
   margin-top: 50px;
 }
 @media screen and (min-width: 1200px) {
   .Boutton_Title {
-    margin-left: 7%;
+    margin-left: 110px;
   }
 }
 
@@ -258,8 +259,8 @@ nav .sous-titre .sous-titre-paragraphe {
   color: black;
 }
 .Boutton .Boutton_Cliquable {
-  height: 72px;
-  width: 98%;
+  width: 90%;
+  margin: auto;
 }
 @media (min-width: 992px) {
   .Boutton .Boutton_Cliquable {
@@ -289,6 +290,7 @@ nav .sous-titre .sous-titre-paragraphe {
   padding-top: 3px;
 }
 .Boutton .Boutton_Cliquable .Boutton_Interieur .Boutton_Texte {
+  transition: 400ms;
   width: 97%;
   background-color: #F7F7F7;
   border-radius: 20px;
@@ -297,8 +299,16 @@ nav .sous-titre .sous-titre-paragraphe {
   justify-content: space-around;
   display: flex;
   align-items: center;
-  width: 70%;
+  width: 85%;
   margin-left: 10px;
+}
+@media (min-width: 400px) {
+  .Boutton .Boutton_Cliquable .Boutton_Interieur .Boutton_Texte .Boutton_Texte_Interieur {
+    width: 70%;
+  }
+}
+.Boutton .Boutton_Cliquable .Boutton_Interieur .Boutton_Texte .Boutton_Texte_Interieur i {
+  transition: 400ms;
 }
 @media (min-width: 992px) {
   .Boutton .Boutton_Cliquable .Boutton_Interieur .Boutton_Texte .Boutton_Texte_Interieur {
@@ -320,7 +330,12 @@ nav .sous-titre .sous-titre-paragraphe {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    margin: auto;
+    margin-left: 20px;
+  }
+}
+@media (min-width: 1200px) {
+  .Boutton {
+    margin-left: 80px;
   }
 }
 
@@ -334,11 +349,11 @@ nav .sous-titre .sous-titre-paragraphe {
 }
 #Restaurant .Restaurant_title {
   margin-top: 20px;
-  margin-left: 20px;
+  margin-left: 50px;
 }
 @media screen and (min-width: 1200px) {
   #Restaurant .Restaurant_title {
-    margin-left: 7%;
+    margin-left: 110px;
   }
 }
 #Restaurant #Les_cartes {
@@ -350,15 +365,18 @@ nav .sous-titre .sous-titre-paragraphe {
 }
 @media (min-width: 992px) {
   #Restaurant #Les_cartes {
-    /* flex-direction: row; */
     display: flex;
-    margin-left: 64px;
+    margin-left: 20px;
     height: 350px;
     width: 95%;
-    /* margin: auto; */
     display: flex;
     flex-direction: unset;
     justify-content: space-evenly;
+  }
+}
+@media (min-width: 1200px) {
+  #Restaurant #Les_cartes {
+    margin-left: 70px;
   }
 }
 #Restaurant #Les_cartes a {
@@ -499,8 +517,17 @@ main .menu_liste_page_2 .Menu_page_2 .fa-sharp .fa-regular .fa-heart {
 main .menu_liste_page_2 .Menu_page_2 .fa-sharp:hover {
   animation: Heart_Animation 1s forwards;
 }
+main .menu_liste_page_2 .menu_liste_bloc_page_2 {
+  margin-bottom: 40px;
+}
 main .menu_liste_page_2 .menu_liste_bloc_page_2 .Entre_page_2 {
-  margin-left: 10px;
+  margin-left: 20px;
+}
+@media (min-width: 768px) {
+  main .menu_liste_page_2 .menu_liste_bloc_page_2 .Entre_page_2 {
+    width: 75%;
+    margin: auto;
+  }
 }
 main .menu_liste_page_2 .menu_liste_bloc_page_2 .Entre_page_2 .soulignement_page_2 {
   width: 40px;
@@ -516,6 +543,11 @@ main .menu_liste_page_2 .menu_liste_bloc_page_2 .plat_page_2 {
   justify-content: space-between;
   box-shadow: 0px 4.01149px 15.0431px rgba(0, 0, 0, 0.1);
   border-radius: 15.0431px;
+}
+@media (min-width: 768px) {
+  main .menu_liste_page_2 .menu_liste_bloc_page_2 .plat_page_2 {
+    width: 75%;
+  }
 }
 main .menu_liste_page_2 .menu_liste_bloc_page_2 .plat_page_2 .texte_plat_page_2 {
   overflow: hidden;
@@ -572,6 +604,7 @@ main .menu_liste_page_2 .menu_liste_bloc_page_2 .plat_page_2:hover .hover_select
 }
 
 .BouttonExplorer {
+  transition: 400ms;
   border: solid 2px rgba(255, 255, 255, 0);
   border-radius: 50px;
   background: linear-gradient(200.64deg, #9356DC -5.2%, #FF79DA 110.74%);
