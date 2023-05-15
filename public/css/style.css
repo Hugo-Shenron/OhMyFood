@@ -39,22 +39,23 @@ nav {
     z-index: -1;
   }
 }
-.dot {
+.Parent_dot {
+  display: flex;
+  margin: auto;
+}
+.Parent_dot .dot {
   animation: dot_loader 2s forwards;
   position: relative;
   width: 50px;
   border-radius: 50%;
   top: 50%;
-  left: 45%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
   margin: 0 15px;
   height: 50px;
   color: black;
   background-color: #9356DC;
-}
-@media screen and (max-width: 767px) {
-  .dot {
-    left: 25%;
-  }
 }
 
 @keyframes dot_loader {
@@ -156,7 +157,11 @@ nav .sous-titre h1 {
 }
 
 .footer_page2 {
-  margin-top: 1840px !important;
+  margin-top: 1810px !important;
+}
+
+.page_4_footer_resize {
+  margin-top: 1900px !important;
 }
 
 nav #menu .title {
@@ -340,7 +345,7 @@ nav .sous-titre .sous-titre-paragraphe {
 }
 
 #Restaurant {
-  height: 1300px;
+  height: 1200px;
 }
 @media (min-width: 992px) {
   #Restaurant {
@@ -498,7 +503,7 @@ main .menu_liste_page_2 .page_2_liste {
   position: relative;
   background-color: #F6F6F6;
   border-radius: 50px 50px 0px 0px;
-  height: 1400px;
+  height: 1370px;
   width: 90%;
   margin-left: 63px;
 }
@@ -507,6 +512,9 @@ main .menu_liste_page_2 .page_2_liste {
     width: 100%;
     margin-left: 0;
   }
+}
+main .menu_liste_page_2 .Page_4_resize {
+  height: 1460px !important;
 }
 main .menu_liste_page_2 .Menu_page_2 h1 {
   font-family: "Shrikhand", cursive;

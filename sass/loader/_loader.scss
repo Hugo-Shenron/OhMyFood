@@ -16,22 +16,28 @@
 }
 
 
-.dot{
-    animation: dot_loader 2s forwards;
-    position: relative;
-    width: 50px;
-    border-radius: 50%;
-    top: 50%;
-    left: 45%;
-    margin: 0 15px;
-    height: 50px;
-    color: black;
-    background-color: $Primary;
+.Parent_dot{
 
-    @media screen and (max-width:767px) {
-        left: 25%;
+    display: flex;
+    margin: auto;
+
+    .dot{
+        animation: dot_loader 2s forwards;
+        position: relative;
+        width: 50px;
+        border-radius: 50%;
+        top: 50%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin: 0 15px;
+        height: 50px;
+        color: black;
+        background-color: $Primary;
     }
 }
+
+
 @keyframes dot_loader {
     0% {
         transform: rotate(0deg);

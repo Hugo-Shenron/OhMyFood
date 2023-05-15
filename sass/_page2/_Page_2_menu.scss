@@ -15,14 +15,20 @@ main {
             position: relative;
             background-color: $back-menu;
             border-radius: 50px 50px 0px 0px;
-            height: 1400px;
+            height: 1370px;
             width: 90%;
             margin-left: 63px;
+
+
             @media screen and (max-width:767px) {
                 width: 100%;
                 margin-left: 0;
             }
 
+        }
+
+        .Page_4_resize{
+            height: 1460px !important;
         }
 
         .img_page_2 {}
@@ -58,6 +64,8 @@ main {
                     margin-bottom: 15px;
                     margin-top: -15px;
                     border: 2px $page2green solid;
+
+                    
                 }
             }
 
@@ -172,6 +180,3 @@ h1 {
     text-align: center;
 }
 
-.footer_page2 {
-
-}
