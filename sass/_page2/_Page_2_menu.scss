@@ -153,6 +153,7 @@ main {
 }
 
 .BouttonExplorer {
+    
     transition: 400ms;
     border: solid 2px rgba(255, 255, 255, 0);
     border-radius: 50px;
@@ -167,6 +168,7 @@ main {
         transition-duration: 0.5s;
         filter: brightness(1.1);
         box-shadow: 0px 4px 15px 4px #00000040;
+        cursor: pointer;
     }
 
     p {
