@@ -66,9 +66,18 @@
 }
 
 .footer_page2{
-    margin-top: 1810px !important;
+    margin-top: 1610px !important;
+
+    @media (min-width:1200px) {
+        margin-top: 1810px !important;
+    }
 }
 
 .page_4_footer_resize {
-    margin-top: 1900px !important;
+    margin-top: 1700px !important;
+
+    @media (min-width:1200px) {
+        margin-top: 190
+        0px !important;
+    }
 }

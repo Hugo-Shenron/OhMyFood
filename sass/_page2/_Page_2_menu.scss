@@ -11,13 +11,13 @@ main {
         img {}
 
         .page_2_liste {
-            margin-top: -60px;
+            margin-top: -60px !important;
             position: relative;
             background-color: $back-menu;
             border-radius: 50px 50px 0px 0px;
             height: 1370px;
             width: 90%;
-            margin-left: 63px;
+            margin: auto;
 
 
             @media screen and (max-width:767px) {
