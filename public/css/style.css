@@ -17,7 +17,7 @@ nav {
   height: 370px;
   background-color: #F6F6F6;
 }
-@media screen and (max-width: 656px) {
+@media screen and (max-width: 668px) {
   nav {
     height: 430px;
   }
@@ -170,7 +170,7 @@ nav .sous-titre h1 {
 }
 @media (min-width: 1200px) {
   .page_4_footer_resize {
-    margin-top: 1900px !important;
+    margin-top: 190 0px !important;
   }
 }
 
