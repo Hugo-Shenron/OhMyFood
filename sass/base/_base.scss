@@ -21,12 +21,12 @@ main {
     
 }
 
-nav {
-    height: 370px;
+header {
+    height: 500px;
     background-color: #F6F6F6;
 
-    @media screen and (max-width:668px){
-        height: 430px;
+    @media screen and (min-width:668px){
+        height: 380px;
     }
 
 }

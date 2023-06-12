@@ -1,4 +1,4 @@
-nav {
+header {
     #menu {
         .title {
             height: 63px;
@@ -65,17 +65,21 @@ nav {
         }
     }
 
-    .sous-titre {
-        .sous-titre h1 {
-            font-size: 70px;
+    nav {
+         h1 {
+            font-size: 50px;
             margin-top: 20px !important;
-            width: 75%;
             margin: auto;
             text-align: center;
+            width: 95%;
 
             @media (min-width:992px) {
-                font-size: 70px;
+                font-size: 50px;
             }
+        }
+
+        a{
+            text-decoration: none;
         }
 
         .sous-titre-paragraphe {
@@ -99,12 +103,21 @@ nav {
     }
 }
 
+.Section_1{
+
+    @media screen and (min-width:992px) {
+        margin: auto;
+        width: 100%;
+    }
+    @media screen and (min-width:1200px) {
+        width: 80%;
+    }
 .Boutton_Title {
     margin-left: 50px;
     margin-top: 50px;
 
     @media screen and (min-width:1200px) {
-        margin-left: 110px;
+        margin-left: 30px;
     }
 }
 
@@ -120,6 +133,10 @@ nav {
     .Boutton_Cliquable {
         width: 90%;
         margin: auto;
+
+        a{
+            text-decoration: none;
+        }
 
         @media (min-width:992px) {
             width: 30%;
@@ -190,55 +207,68 @@ nav {
     }
 
     @media (min-width:992px) {
-        max-width: 1200px;
         display: flex;
         flex-direction: row;
         justify-content: space-around;
-        margin-left: 20px;
     }
 
     @media (min-width:1200px) {
-        margin-left: 80px;
+        margin: auto;
     }
 }
 
+}
+
+#background_color{
+    padding-top: 1px;
+    margin-top: 50px;
+    background-color: $back-menu;
 
 #Restaurant {
     height: 1200px;
+    width: 95%;
+    margin: auto;
 
     @media (min-width:992px) {
         height: 350px;
     }
 
+    @media (min-width:1200px) {
+        width: 90%;
+    }
+
     .Restaurant_title {
-        margin-top: 20px;
-        margin-left: 50px;
+        margin-top: 30px;
+        margin-left: 20px;
+        @media screen and (min-width:992px) {
+            margin-left: 00px;
+        }
 
         @media screen and (min-width:1200px) {
-            margin-left: 110px;
+            margin-left: 0px;
         }
     }
 
     #Les_cartes {
-        width: 90%;
+        width: 95%;
         margin: auto;
         display: flex;
         flex-direction: column;
-        justify-content: space-around;
+        justify-content: space-between;
 
         @media (min-width:992px) {
             display: flex;
-            margin-left: 20px;
             height: 350px;
-            width: 95%;
+            width: 100%;
             display: flex;
             flex-direction: unset;
-            justify-content: space-evenly;
+            justify-content: space-between;
         }
 
         @media (min-width:1200px) {
-            margin-left: 70px;
+            width: 100%;
         }
+
 
         a {
             text-decoration: none;
@@ -308,6 +338,7 @@ nav {
             }
         }
     }
+}
 }
 
 .img_page_2 {
