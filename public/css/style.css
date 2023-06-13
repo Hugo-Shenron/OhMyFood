@@ -572,7 +572,8 @@ header nav .sous-titre-paragraphe {
   margin-left: 20px;
 }
 .Nav_2_hover nav .title_page_2 .retour_2 {
-  display: none;
+  visibility: hidden;
+  margin-right: 20px;
 }
 
 main .menu_liste_page_2 {
